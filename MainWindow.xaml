@@ -1,0 +1,14 @@
+﻿<Window x:Class="TilePuzzle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TilePuzzle"
+        xmlns:Controls ="clr-namespace:TilePuzzle.controls"
+        mc:Ignorable="d"
+        Title="TilePuzzle" Height="450" Width="800">
+    <DockPanel>
+        <Button DockPanel.Dock="Top" Height="30" FontSize="20" Background="Beige" Click="Button_Click">Solve!</Button> 
+        <Controls:TilePuzzle x:Name="puzzle" Loaded="TilePuzzle_Loaded" Order="2468 7135"/>
+    </DockPanel>
+</Window>
