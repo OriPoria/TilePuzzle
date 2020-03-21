@@ -9,6 +9,6 @@
         Title="TilePuzzle" Height="450" Width="800">
     <DockPanel>
         <Button DockPanel.Dock="Top" Height="30" FontSize="20" Background="Beige" Click="Button_Click">Solve!</Button> 
-        <Controls:TilePuzzle x:Name="puzzle" Loaded="TilePuzzle_Loaded" Order="2468 7135"/>
+        <Controls:TilePuzzle x:Name="puzzle" Loaded="TilePuzzle_Loaded" Order="32145687 "/>
     </DockPanel>
 </Window>

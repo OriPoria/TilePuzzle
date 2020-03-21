@@ -34,7 +34,13 @@ namespace TilePuzzle.controls
             tiles[6] = l7;
             tiles[7] = l8;
             tiles[8] = l9;
+
+            foreach (Label l in tiles)
+                l.MouseDoubleClick += doubleClickPressed;
+
         }
+
+
         public string Order
         {
             get
@@ -101,41 +107,19 @@ namespace TilePuzzle.controls
             newStr = builder.ToString();
             return newStr;
         }
-        private void l1_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private void doubleClickPressed(object sender, MouseButtonEventArgs e)
         {
-            move(0);
+            int t = getIndex(sender as Label);
+            move(t);
         }
-        private void l2_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private int getIndex(Label l)
         {
-            move(1);
+            int i = 0;
+            for (; i < tiles.Length; i++)
+                if (tiles[i] == l)
+                    break;
+            return i;
         }
-        private void l3_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            move(2);
-        }
-        private void l4_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            move(3);
-        }
-        private void l5_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            move(4);
-        }
-        private void l6_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            move(5);
-        }
-        private void l7_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            move(6);
-        }
-        private void l8_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            move(7);
-        }
-        private void l9_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            move(8);
-        }
+
     }
 }

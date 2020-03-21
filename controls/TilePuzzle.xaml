@@ -17,14 +17,14 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="l1" Content="1" Grid.Row="0" Grid.Column="0" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" BorderBrush="Black" BorderThickness="3" MouseDoubleClick="l1_MouseDoubleClick"/>
-        <Label x:Name="l2" Content="2" Grid.Row="0" Grid.Column="1" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" BorderBrush="Black" BorderThickness="3" MouseDoubleClick="l2_MouseDoubleClick"/>
-        <Label x:Name="l3" Content="3" Grid.Row="0" Grid.Column="2" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" BorderBrush="Black" BorderThickness="3" MouseDoubleClick="l3_MouseDoubleClick"/>
-        <Label x:Name="l4" Content="4" Grid.Row="1" Grid.Column="0" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" BorderBrush="Black" BorderThickness="3" MouseDoubleClick="l4_MouseDoubleClick"/>
-        <Label x:Name="l5" Content="5" Grid.Row="1" Grid.Column="1" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" BorderBrush="Black" BorderThickness="3" MouseDoubleClick="l5_MouseDoubleClick"/>
-        <Label x:Name="l6" Content="6" Grid.Row="1" Grid.Column="2" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" BorderBrush="Black" BorderThickness="3" MouseDoubleClick="l6_MouseDoubleClick"/>
-        <Label x:Name="l7" Content="7" Grid.Row="2" Grid.Column="0" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" BorderBrush="Black" BorderThickness="3" MouseDoubleClick="l7_MouseDoubleClick"/>
-        <Label x:Name="l8" Content="8" Grid.Row="2" Grid.Column="1" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" BorderBrush="Black" BorderThickness="3" MouseDoubleClick="l8_MouseDoubleClick"/>
-        <Label x:Name="l9" Content=" " Grid.Row="2" Grid.Column="2" Background="Gray" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black" BorderThickness="3" MouseDoubleClick="l9_MouseDoubleClick"/>
+        <Label x:Name="l1" Content="1" Grid.Row="0" Grid.Column="0" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" BorderBrush="Black" BorderThickness="3"/>
+        <Label x:Name="l2" Content="2" Grid.Row="0" Grid.Column="1" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" BorderBrush="Black" BorderThickness="3"/>
+        <Label x:Name="l3" Content="3" Grid.Row="0" Grid.Column="2" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" BorderBrush="Black" BorderThickness="3"/>
+        <Label x:Name="l4" Content="4" Grid.Row="1" Grid.Column="0" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" BorderBrush="Black" BorderThickness="3"/>
+        <Label x:Name="l5" Content="5" Grid.Row="1" Grid.Column="1" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" BorderBrush="Black" BorderThickness="3"/>
+        <Label x:Name="l6" Content="6" Grid.Row="1" Grid.Column="2" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" BorderBrush="Black" BorderThickness="3"/>
+        <Label x:Name="l7" Content="7" Grid.Row="2" Grid.Column="0" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" BorderBrush="Black" BorderThickness="3"/>
+        <Label x:Name="l8" Content="8" Grid.Row="2" Grid.Column="1" Background="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" BorderBrush="Black" BorderThickness="3"/>
+        <Label x:Name="l9" Content=" " Grid.Row="2" Grid.Column="2" Background="Gray" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black" BorderThickness="3" />
     </Grid>
 </UserControl>
